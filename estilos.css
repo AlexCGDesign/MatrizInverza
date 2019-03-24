@@ -30,6 +30,7 @@ header .enlaces a:hover{
     justify-content: space-between;
     align-items: center;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 body{
