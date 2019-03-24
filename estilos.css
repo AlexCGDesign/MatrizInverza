@@ -8,7 +8,7 @@ header{
     background: #2c3e50;
 }
 header  img{
-    height: 100px;;
+    height: 80px;;
     background: #fff;
     vertical-align: top;
 }
@@ -55,11 +55,13 @@ h1{
     font-weight: bold;
 }
 
-.label-matriz input[type="text"]{
+input[type="text"]{
     background:transparent;
     border: none;
     border-bottom: 3px solid #2c3e50;
     width: 80px;
+    margin: 3px 3px;
+    text-align: center;
 }
 
 .obtener-matriz{
@@ -75,4 +77,30 @@ h1{
     height:40px;
     font-size: 18px;
     color: #000;
+}
+
+.agregar{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+.centrar{
+    display: inline-block;
+    margin:auto;
+    text-align: center;
+}
+
+.procedimiento{
+    background: #fff;
+    width: 50%;
+    margin: auto 40px;
+    /* overflow: scroll; */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.bottom{
+    margin-bottom: 40px;
 }
