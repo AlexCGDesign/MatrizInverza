@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: #2c3e50;
+}
+header  img{
+    height: 100px;;
+    background: #fff;
+    vertical-align: top;
+}
+header .enlaces a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+header .enlaces a:hover{
+    text-decoration: underline;
+}
+.contenedor-header{
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+body{
+    background: #f2f2f2;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 20px  0;
+}
+
+.label-matriz{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.label-matriz label{
+    display: block;
+    margin:0 10px;
+    font-weight: bold;
+}
+
+.label-matriz input[type="text"]{
+    background:transparent;
+    border: none;
+    border-bottom: 3px solid #2c3e50;
+    width: 80px;
+}
+
+.obtener-matriz{
+    display:block;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: -20px;
+    text-decoration: none;
+    width: 200px;
+    border: 2px solid #2c3e50;
+    height:40px;
+    font-size: 18px;
+    color: #000;
+}

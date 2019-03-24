@@ -47,12 +47,7 @@ for(let i=0;i<n;i++){
     }
     imprimirValores(); 
 }
-for(let m = 0; m <n;m++){
-    for(let h = 2; h <=n1;h++){
-        document.write(`[ ${matriz[m][h]} ]`)
-    }
-    document.write(`<br> <br>`)
-}
+
 function imprimirValores(){
     for(let m = 0; m <n;m++){
         for(let h = 0; h <=n1;h++){
@@ -64,6 +59,7 @@ function imprimirValores(){
         }
         document.write(`<br> <br>`)
     }
+    document.write(`<br> <br>`)
 }
 
 function decimalToFraction(value, donly = true) {
