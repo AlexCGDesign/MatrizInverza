@@ -53,7 +53,7 @@ resultado.addEventListener('click', function () {
             }
         }
     }
-    
+
 
     imprimirValores();
 
@@ -96,6 +96,7 @@ resultado.addEventListener('click', function () {
             procedimiento.appendChild(h1);
         }
         h1 = document.createElement("br");
+        h1.className = "br"
         procedimiento.appendChild(h1);
     }
 

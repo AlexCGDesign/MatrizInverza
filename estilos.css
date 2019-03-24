@@ -94,7 +94,7 @@ input[type="text"]{
 
 .procedimiento{
     background: #fff;
-    width: 50%;
+    width: 100%;
     margin: auto 40px;
     /* overflow: scroll; */
     padding: 20px 0;
@@ -103,4 +103,10 @@ input[type="text"]{
 
 .bottom{
     margin-bottom: 40px;
+}
+
+.br{
+    display:block;
+    margin: 40px 0;
+    padding: 40px 0;
 }
